@@ -1,6 +1,6 @@
 # docker-debian11-systemd
 
-![build](https://github.com/trfore/docker-debian11-systemd/workflows/build/badge.svg?branch=main&event=push)
+[![build](https://github.com/trfore/docker-debian11-systemd/workflows/build/badge.svg?branch=main&event=push)](https://github.com/trfore/docker-debian11-systemd/actions/workflows/build.yml)
 
 A minimal systemd enabled Debian 11 Docker image for testing Ansible roles with Molecule.
 
