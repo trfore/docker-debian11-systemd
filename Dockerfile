@@ -1,7 +1,5 @@
-FROM debian:11
-LABEL org.label-schema.author="Taylor Fore (GitHub @trfore)" \
-    org.label-schema.name="docker-debian11-systemd" \ 
-    org.label-schema.vcs-url="https://github.com/trfore/docker-debian11-systemd"
+ARG BASEOS_DIGEST
+FROM docker.io/library/debian:11${BASEOS_DIGEST:-}
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
