@@ -1,13 +1,13 @@
 name: Build
 on:
+  workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - '.github/workflows/build.yml'
       - 'Dockerfile'
       - 'baseos_digest'
   pull_request:
-    branches: [main]
+    branches: ['*']
 
 env:
   IMAGE_NAME: ${{ github.repository }}
