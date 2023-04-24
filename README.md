@@ -24,7 +24,7 @@ This image is built on Docker Hub automatically any time the upstream OS image i
 ```yaml
 platforms:
   - name: instance
-    image: trfore/docker-${MOLECULE_DISTRO:-debian10}-systemd:latest
+    image: trfore/docker-debian11-systemd:latest
     tmpfs:
       - /run
       - /tmp
