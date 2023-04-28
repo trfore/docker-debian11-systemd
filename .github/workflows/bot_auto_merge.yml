@@ -12,7 +12,7 @@ env:
 jobs:
   merge_pr:
     runs-on: ubuntu-latest
-    if: ${{ github.actor == 'github-action[bot]' }}
+    if: ${{ github.actor == 'dependabot[bot]' || github.actor == 'github-action[bot]' }}
     steps:
       - name: Dependabot metadata
         id: metadata
