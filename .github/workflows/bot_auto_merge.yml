@@ -1,5 +1,5 @@
 name: Bot Auto-Approve and Merge
-on: pull_request
+on: pull_request_target
 
 permissions:
   contents: write
