@@ -7,7 +7,6 @@ on:
       - "Dockerfile"
       - "baseos_digest"
   pull_request:
-    branches: ["*"]
 
 jobs:
   test_build:
