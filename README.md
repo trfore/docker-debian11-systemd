@@ -1,7 +1,7 @@
 # docker-debian11-systemd
 
-[![CI](https://github.com/trfore/docker-debian11-systemd/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/trfore/docker-debian11-systemd/actions/workflows/ci.yml)
-[![CD](https://github.com/trfore/docker-debian11-systemd/actions/workflows/cd.yml/badge.svg?branch=main)](https://github.com/trfore/docker-debian11-systemd/actions/workflows/cd.yml)
+[![CI](https://github.com/trfore/docker-debian11-systemd/actions/workflows/ci.yml/badge.svg)](https://github.com/trfore/docker-debian11-systemd/actions/workflows/ci.yml)
+[![CD](https://github.com/trfore/docker-debian11-systemd/actions/workflows/cd.yml/badge.svg)](https://github.com/trfore/docker-debian11-systemd/actions/workflows/cd.yml)
 
 A minimal systemd enabled Debian 11 Docker image for testing Ansible roles with Molecule.
 
