@@ -7,6 +7,12 @@ A minimal systemd enabled Debian 11 Docker image for testing Ansible roles with 
 
 NOTE: This image does NOT contain Ansible tooling, e.g. `ansible-core` or `yamllint`. Thus, the use case is as target host for Ansible controllers or within the Molecule `create`/`converge`/`test` cycle.
 
+**Docker Pull Command**
+
+```sh
+docker pull trfore/docker-debian11-systemd
+```
+
 ## How to Build
 
 This image is built on Docker Hub automatically any time the upstream OS image is rebuilt, and any time a commit is made or merged to the `main` branch. But if you need to build the image on your own locally, do the following:
